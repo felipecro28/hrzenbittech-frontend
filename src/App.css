@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.yellowFace{
+  width: 80px;
+}
+
+.form-map{
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+  max-width: 100%;
+  margin: 0 50px;
+}
+
+.form-image{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 350px;
+  height: 500px;
+}
+
+.form-image :nth-child(1){
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 350px;
+
+}
+
+.form-image :nth-child(2){
+  position: absolute;
+  top: 45%;
+  right: 90%;
+  width: 75px;
+  z-index: 1;
+
+
+}
+
+.form-image :nth-child(3){
+  position: absolute;
+  top: 50%;
+  right: 65%;
+  width: 150px;
+
+
+}
